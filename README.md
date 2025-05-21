@@ -1,1 +1,1 @@
-This project is a random color generator. To use pick a button, click on the button until a color you like shows up. To use the random colors button, use your scroll wheel.
+This project is a random color generator. To use pick a button, click on the "Pick a Color" button for a color to appear. The RGB of that color will appear below; to save the color, use the button "Save This Color." This will be populated into a table below which, on click, will show the color saved.
