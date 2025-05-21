@@ -3,6 +3,7 @@ body{
   padding: 0;
   font-family: 'Nunito';
 }
+
 img{
   width: 200px;
   display: block;
@@ -10,6 +11,7 @@ img{
   padding-top: 10px;
   margin-bottom: 30px;
 }
+
 #container{
   margin: 0;
   width: 100vw;
@@ -17,6 +19,7 @@ img{
   background: #fd4d3f;
   margin: 0 auto;
 }
+
 h1{
   font-size: 30px;
   width: 450px;
@@ -25,6 +28,7 @@ h1{
   margin-bottom: 100px;
   color: #141c3a;
 }
+
 p{
   font-size: 20px;
   width: 400px;
@@ -34,6 +38,7 @@ p{
   margin-bottom: 30px;
   color: white;
 }
+
 #color-button{
   width: 350px;
   height: 100px;
@@ -49,16 +54,55 @@ p{
   font-family: 'Nunito';
 
 }
-#next-button{
+
+#save-button {
   width: 350px;
-  height: 100px;
+  height: 60px;
   border: none;
-  font-size: 24px;
-  background-color: #141c3a;
-  color: white;
+  font-size: 20px;
+  background-color: white;
+  color: #141c3a;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Nunito';
+  font-weight: bold;
+}
+
+#color-code {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#palette-history {
+  width: 90%;
+  margin: 30px auto;
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #141c3a;
+}
+
+#palette-history h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#palette-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.palette-swatch {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #141c3a;
 }
